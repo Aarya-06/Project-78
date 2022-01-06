@@ -30,17 +30,17 @@ export default class StarMapScreen extends Component {
                         placeholder="Enter your longitude"
                         placeholderTextColor="white"
 
-                         onChangeText={(text) => {
-                             this.State({
-                                 longitude: text
-                             })
-                         }}
-
                         // onChangeText={(text) => {
-                        //     this.setState(
+                        //     this.State({
                         //         longitude: text
-                        //     )
+                        //     })
                         // }}
+
+                         onChangeText={(text) => {
+                             this.setState(
+                                 longitude: text
+                           )
+                         }}
 
                         // onChangeText={() => {
                         //     this.setState({
